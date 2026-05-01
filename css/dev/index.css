@@ -506,6 +506,7 @@
   position: relative;
   padding: 87px 0 47px;
   position: relative;
+  margin-bottom: 24px;
   z-index: 1;
 }
 .about__block::before {
@@ -592,9 +593,8 @@
 }
 .info__item {
   font-style: italic;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 106%;
-  text-align: center;
   font-weight: 400;
   color: var(--main-color);
   position: relative;
@@ -637,7 +637,7 @@
   font-family: var(--third-family);
   font-style: italic;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 106%;
   padding-left: 14px;
   border-left: 1px solid var(--accent-color);
@@ -1185,7 +1185,7 @@
   font-family: var(--third-family);
   font-style: italic;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 136%;
   margin-bottom: 40px;
 }
@@ -1208,7 +1208,7 @@
 }
 .pregnancy__text {
   font-weight: 400;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 131%;
   text-align: center;
 }
@@ -1243,6 +1243,10 @@
 .bottom__item {
   max-width: 170px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .bottom__item-icon {
   max-width: 120px;

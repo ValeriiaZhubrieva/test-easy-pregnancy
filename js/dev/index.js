@@ -3869,7 +3869,7 @@ var marquee = () => {
 				counterDuplicateElements += 1;
 				return sizeEl;
 			});
-			const $multiplyWidth = $parentNodeWidth * 2 + initialSizeElements;
+			const $multiplyWidth = Math.max($parentNodeWidth * 6, initialSizeElements * 3);
 			for (; sumSize < $multiplyWidth; index += 1) {
 				if (!$childrenEl[index]) index = 0;
 				const $cloneNone = $childrenEl[index].cloneNode(true);
